@@ -182,7 +182,7 @@ class App extends React.Component {
       React.createElement("button", { onClick: () => this.setAnimation('thinking') }, "Thinking"), /*#__PURE__*/
       React.createElement("button", { onClick: () => this.setAnimation('typing') }, "Typing"), /*#__PURE__*/
       React.createElement("button", { onClick: () => this.setAnimation('stressed', 240) }, "Nailing it"), /*#__PURE__*/
-      React.createElement("a", { href: " https://brianesel.github.io/venusianandmartian2/" }, "He found something!")),
+      React.createElement("a", { href: "https://brianesel.github.io/venusandmartian2/" }, "He found something!")),
 
       animation === 'stressed' && /*#__PURE__*/
       React.createElement("div", { className: "sliders" }, /*#__PURE__*/
